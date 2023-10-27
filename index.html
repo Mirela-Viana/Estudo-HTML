@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mirela Viana</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="scripts.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sometype+Mono:ital@1&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="corpoPage">
+        <!-- Tema do site -->
+        <h1 class="tema">Informações Pessoais</h1>
+
+
+        <!-- Imagem Avatar -->
+        <div class="fotoPerfil"></div>
+        <img class="gato" src="imagem/gato2.jpg" alt="gato preto" width="200">
+    </div>
+
+
+    <!--Curso-->
+    <div class="curso">
+        <h2 class="curso">Desenvolvedor Web em treinamento</h2>
+    </div>
+
+    <!-- Nome e idade -->
+    <h3 class="nome">Nome: Mirela de Melo Viana</h3>
+    <h3 class="idade">Idade: 17 anos</h3>
+
+    <br>
+
+    <!-- Sobre mim -->
+
+    <h4>Sobre mim</h4>
+    <p class="informações">Sou Mirela de Melo Viana, nascida no dia 27.09.2006 em São Paulo, atualmente (26.10.2023) tenho 17 anos
+        e estou no segundo ano do ensino médio do SESI 416 integrado com o SENAI (Almiranta Tamandaré). Amo animais e na minha vida tive o
+        total de 3 pets,gosto de desenhar e ler, gosto da ideia de criar sites/páginas e espero
+        trabalhar na área de front-end futuramente... </p>
+
+    <br>
+
+    <!--Habilidades-->
+
+    <button onclick="toggle('habili')" div class="button1">Habilidades</button>
+    <div id="habili">
+        <ul>
+            <li>Criatividade;</li>
+            <li>Entendimento de CSS e HTML;</li>
+            <li>Js básico;</li>
+            <li>inglês básico;</li>
+        </ul>
+    </div>
+
+    <br>
+    <br>
+
+    <!--Contato-->
+
+    <h4>Contato</h4>
+    <a href="https://github.com/Mirela-Viana?" target="_blank"><img class="git" src="imagem/GitHub-Emblem.png"
+            alt="Icone para contato" width="100"></a>
+
+    </div>
+
+    <!--Formulário de validação-->
+
+    <h4>Formulário de validação</h4>
+    <form id="form">
+        <label for="nome">Nome:</label>
+        <input type="text" id='nome' required name="nome" />
+
+        <label for="email">Email:</label>
+        <input type="email" id='email' required name="email" />
+
+        <label for="senha">Senha:</label>
+        <input type="senha" id='senha' required name="senha" />
+
+        <label for="menssage">Mensagem:</label>
+        <textarea type="message" id='message'></textarea>
+
+
+        <button type="submit" div class="envio">Enviar</button>
+
+<!--Rodapé-->
+    </form>
+    <footer>Desenvolvimento de Sistemas - SENAI - 2023</footer>
+</body>
+
+</html>
